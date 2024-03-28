@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+/*Body com Degradê na cor do produto */
+body{
+	background: url('background-pagina-vendas.png');
+	background-repeat: no-repeat ;
+	background-size: cover;
+}
+
+html{
+	background: ;
+}
+
+.container{
+	
+}
+
+
+header{
+	background: #000000;
+
+}
+
+
+
+
+/* MEDIA QUERIES PARA CELULARES E TABLETS */
+
+@media(max-width:1020.99px){
+
+	body{
+		width: 100vm;
+		min-height: 1280px;
+		margin: 0;
+		overflow-x:hidden;
+	}
+
+
+	#img-logo{
+		
+	}
+
+	#img-produto{
+		max-width: 100%;
+		min-height: 30em;
+		position: relative;
+		left: 0%;
+		top:0.5em;
+
+	}
+
+
+
+
+	.carousel-inner, .carousel-item img{
+		width: 100%;
+	}
+}
+
+
+/* MEDIA QUERIES PARA COMOUTADORES E NOTEBOOKS */
+
+@media(min-width:1024px){
+
+
+
+
+
+
+
+
+
+	.carousel-inner, .carousel-item img{
+		width: 100%;
+	}
+	
+}
